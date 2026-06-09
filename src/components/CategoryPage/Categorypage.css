@@ -1,0 +1,131 @@
+.category-page {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 40px 60px;
+}
+
+.category-page__hero {
+  max-width: 800px;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+
+.category-page__heading {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.category-page__subtitle {
+  margin-top: 20px;
+  color: #c7c7c7;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.category-page__articles {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.category-page__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: start;
+}
+
+.category-page__header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.category-page__title {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.category-page__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.category-page__label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+.category-page__section {
+  margin: 0;
+  font-size: 16px;
+}
+
+.category-page__image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.category-page__button {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 2rem;
+  padding: 12px 24px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.category-page__button:hover {
+  opacity: 0.7;
+}
+
+.category-page__divider {
+  width: 60px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 1.5rem 0;
+}
+
+.category-page__description {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 500px;
+}
+@media (max-width: 768px) {
+  .category-page {
+    padding: 30px 20px;
+  }
+
+  .category-page__heading {
+    font-size: 42px;
+  }
+
+  .category-page__card {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .category-page__image {
+    height: 300px;
+  }
+
+  .category-page__title {
+    font-size: 30px;
+  }
+
+  .category-page__articles {
+    gap: 80px;
+  }
+}
