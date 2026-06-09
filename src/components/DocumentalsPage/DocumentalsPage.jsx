@@ -1,10 +1,10 @@
 import CategoryPage from "../../components/CategoryPage/CategoryPage";
-import doc1 from "../../images/DocumentalsPage1.jpg";
-import doc2 from "../../images/DocumentalsPage2.jpg";
-import doc3 from "../../images/DocumentalsPage3.jpg";
-import doc4 from "../../images/DocumentalsPage4.jpg";
-import doc5 from "../../images/DocumentalsPage5.jpg";
-import doc6 from "../../images/DocumentalsPage6.jpg";
+import doc1 from "../../images/documentalsPage1.jpg";
+import doc2 from "../../images/documentalsPage2.jpg";
+import doc3 from "../../images/documentalsPage3.jpg";
+import doc4 from "../../images/documentalsPage4.jpg";
+import doc5 from "../../images/documentalsPage5.jpg";
+import doc6 from "../../images/documentalsPage6.jpg";
 
 function DocumentalsPage() {
   return (
